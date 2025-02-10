@@ -1,0 +1,112 @@
+#topic{
+    border: 3px solid white;
+    padding: 10px;
+
+    color: white;
+    background-color: rgb(25, 93, 112);
+    font-family: 'Courier New', Courier, monospace;
+
+    text-align: center;
+    width: 50%;
+    margin: 0 auto;
+    border-radius: 75px;
+    font-weight: 400;
+    font-style: normal;
+}
+#smallH{
+    border: 3px solid white;
+    padding: 10px;
+
+    color: white;
+    background-color: rgb(25, 93, 112);
+    font-family: 'Courier New', Courier, monospace;
+
+    text-align: center;
+    width: 50%;
+    margin: 0 auto;
+    border-radius: 75px;
+    font-weight: bold;
+    font-style: normal;
+}
+#computerVision{
+    width: auto;
+    height: 300px;
+    border: 5px solid white;
+    object-fit: cover;
+    flex-wrap: wrap;  
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+body{
+    background-color: rgb(67, 151, 174);
+    text-align: center;
+}
+#current{
+    background-color: white;
+    color: rgb(25, 93, 112);
+    text-align: center;
+    width: 100%;
+    margin: 0 auto;
+    padding:8px;
+    border-radius: 50px;
+}
+.pageLink{
+    background-color:  rgb(25, 93, 112);
+    color: white;
+    text-align: center;
+    width: 100%;
+    margin: 0 auto;
+    padding:8px;
+    border-radius: 50px;
+}
+#explanation{
+    animation: fadeIn  5s forwards;
+    border: 3px solid white;
+    padding: 10px;
+
+    color: white;
+    background-color: rgb(25, 93, 112);
+    font-family: 'Courier New', Courier, monospace;
+
+    text-align: center;
+    width: 75%;
+    margin: 0 auto;
+    border-radius: 5px;
+    font-weight: 400;
+    font-style: normal;
+}
+.pageLink:hover{
+    background-color: rgb(154, 219, 244);
+    color: rgb(255, 255, 255); 
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+
+    
+}
+footer{
+    background-color:rgb(25, 93, 112);
+    margin: 0 auto;
+    text-align: center;
+    padding: 10px;
+    margin: 50px 0 0 0;
+    justify-content: center;
+    display: flex;
+    color: rgb(255, 255, 255);
+    font-size: smal;
+}
+#pageLink{
+    color: rgb(255, 255, 255);
+}
+
+
+
+
+
+@keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+}
